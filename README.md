@@ -25,9 +25,20 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 
 |Command        |Description                                |
 |:-------------:|-------------------------------------------|
-|`i`            |insetar en la posicion actual              |
+|`i`            |insertar en la posicion actual             |
 |`shift + i`    |inserta al inicio de la linea              |
 |`a`            |inserta despues de la ubicacion actual     |
 |`shift + a`    |inserta al final de la linea               |
 |`o`            |inserta una linea debajo de la linea actual|
 |`shift + o`    |inserta una linea encimade la linea actual |
+
+## Comandos para Eliminar
+
+|Command        |Description                                                   |
+|:-------------:|--------------------------------------------------------------|
+|`x`            |eliminar el caracter sobre el cursor                          |
+|`dw`           |elimina desde la posicion actual hasta el final de la palabra |
+|`db`           |elimina desde la posicion actual hasta el inicio de la palabra|
+|`dd`           |eliminar una linea                                            |
+|`d$`           |elimiinar de la posicion actual hasta el final de la linea    |
+|`do`           |eliminar de la posicion actual hasta el inicio de la linea    |
