@@ -49,3 +49,5 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |`diw`          |borra la palabra bajo el cursor                                                   |
 |`daw`          |borra la palabra bajo el cursor y todos los espacios despues de la palabra        |
 |`caw`          |borra la palabra bajo el cursor y te pone en modo inserción                       |
+|`dgg`          |borra desde la linea actual hasta el inicio del archivo                           |
+|`dG`           |borra desde la linea actual hasta el final del archivo                            |
