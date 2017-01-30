@@ -51,3 +51,14 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |`caw`          |borra la palabra bajo el cursor y te pone en modo inserción                       |
 |`dgg`          |borra desde la linea actual hasta el inicio del archivo                           |
 |`dG`           |borra desde la linea actual hasta el final del archivo                            |
+|`d[numero]G`   |borra desde la linea actual hasta el número de la linea ingresada, si el cursor se encuentra despues de la linea ingresada, elimina desde la linea ingresada hasta la linea actual|
+
+## Comandos de salida
+
+|Command        |Description                                |
+|:-------------:|-------------------------------------------|
+|`:q`           |cerrar el archivo                          |
+|`:q!`          |cerrar el archivo sin guardar cambios      |
+|`:x`           |guardar y cerrar el archivo                |
+|`:w `          |guardar el archivo                         |
+|`:wq`          |guardar y cerrar el archivo                |
