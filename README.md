@@ -25,20 +25,27 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 
 |Command        |Description                                |
 |:-------------:|-------------------------------------------|
-|`i`            |insertar en la posicion actual             |
+|`i`            |inserta en la posicion actual              |
 |`shift + i`    |inserta al inicio de la linea              |
 |`a`            |inserta despues de la ubicacion actual     |
 |`shift + a`    |inserta al final de la linea               |
 |`o`            |inserta una linea debajo de la linea actual|
-|`shift + o`    |inserta una linea encimade la linea actual |
+|`shift + o`    |inserta una linea encima de la linea actual|
 
-## Comandos para Eliminar
+## Comandos para Borrar
 
-|Command        |Description                                                   |
-|:-------------:|--------------------------------------------------------------|
-|`x`            |eliminar el caracter sobre el cursor                          |
-|`dw`           |elimina desde la posicion actual hasta el final de la palabra |
-|`db`           |elimina desde la posicion actual hasta el inicio de la palabra|
-|`dd`           |eliminar una linea                                            |
-|`d$`           |elimiinar de la posicion actual hasta el final de la linea    |
-|`do`           |eliminar de la posicion actual hasta el inicio de la linea    |
+|Command        |Description                                                                       |
+|:-------------:|----------------------------------------------------------------------------------|
+|`x`            |borra el caracter bajo el cursor                                                  |
+|`shift + x`    |borra el caracter detras del cursor                                               |
+|`s`            |borra el caracter bajo el cursor                                                  |
+|`shift + s`    |borra la linea bajo el cursor y te pone en modo inserción                         |
+|`dw`           |borra desde la posicion actual hasta el final de la palabra incluyendo el espacio |
+|`de`           |borra desde la posicion actual hasta el final de la palabra sin incluir el espacio|
+|`db`           |borra desde la posicion actual hasta el inicio de la palabra                      |
+|`dd`           |borra una linea                                                                   |
+|`d$`           |borra de la posicion actual hasta el final de la linea                            |
+|`do`           |borra de la posicion actual hasta el inicio de la linea                           |
+|`diw`          |borra la palabra bajo el cursor                                                   |
+|`daw`          |borra la palabra bajo el cursor y todos los espacios despues de la palabra        |
+|`caw`          |borra la palabra bajo el cursor y te pone en modo inserción                       |
