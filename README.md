@@ -99,8 +99,7 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |`shift + n`    |repite la busqueda hacia atrás                                                 |
 |`/\<palabra\>` |buscar especificamente una palabra                                             |
 
-
-  ## Comandos para deshacer y rehacer
+## Comandos para deshacer y rehacer
 
 |Command           |Description                                                                    |
 |:----------------:|-------------------------------------------------------------------------------|
