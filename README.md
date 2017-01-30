@@ -88,3 +88,25 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |``x`           |saltar a la posición del cursor de la marca x                                  |
 |`''`           |volver a la línea donde estaba el cursor antes del último salto                |
 |`'.`           |ir a la última línea cambiada                                                  |
+
+## Comandos para busqueda
+
+|Command        |Description                                                                    |
+|:-------------:|-------------------------------------------------------------------------------|
+|`/patron`      |buscar en adelante el patron                                                   |
+|`?patron`      |buscar hacia atrás el patron                                                   |
+|`n`            |repite la busqueda hacia delante                                               |
+|`shift + n`    |repite la busqueda hacia atrás                                                 |
+|`/\<palabra\>` |buscar especificamente una palabra                                             |
+
+
+  ## Comandos para deshacer y rehacer
+
+|Command           |Description                                                                    |
+|:----------------:|-------------------------------------------------------------------------------|
+|`u`               |deshacer los cambios                                                           |
+|`:u[ndo]`         |deshacer un cambio                                                             |
+|`ctrl + shift + R`|rehacer los cambios que fueron deshechos                                       |
+|`:red[o]`         |rehacer un cambio que fue deshecho                                             |
+|`shift + u`       |deshacer todos los cambios mas recientes en una linea                          |
+|`.`               |repetir el ultimo cambio                                                       |
