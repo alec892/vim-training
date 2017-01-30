@@ -62,3 +62,29 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |`:x`           |guardar y cerrar el archivo                |
 |`:w `          |guardar el archivo                         |
 |`:wq`          |guardar y cerrar el archivo                |
+
+## Comandos para moverte
+
+|Command        |Description                                                                    |
+|:-------------:|-------------------------------------------------------------------------------|
+|`w`            |avanza al principio de una palabra                                             |
+|`e`            |avanza al final de una palabra                                                 |
+|`b`            |retrocede al principio de una palabra                                          |
+|`$`            |ir al final de la linea                                                        |
+|`0`            |ir al inicio de la linea                                                       |
+|`gg`           |ir al inicio del archivo                                                       |
+|`shift + g`    |ir al final del archivo                                                        |
+|`[numero]G`    |saltar a la linea del número ingresado                                         |
+|`:numero`      |saltar a la linea del número ingresado	                                        |
+|`(`            |saltar adelante una oración                                                    |
+|`)`            |saltar hacia atrás una oración                                                 |
+|`{`            |saltar hacia adelante un parrafo                                               |
+|`}`            |saltar hacia atrás un parrafo                                                  |
+|`shift + h`    |ir a la parte superior de la pantalla                                          |
+|`shift + m`    |ir al centro de la pantalla                                                    |
+|`shift + l`    |ir a la parte inferior de la pantalla                                          |
+|`mx`           |establece la marca x en la posicion actual del cursor                          |
+|`'x`           |saltar al principio de la línea de marca x                                     |
+|``x`           |saltar a la posición del cursor de la marca x                                  |
+|`''`           |volver a la línea donde estaba el cursor antes del último salto                |
+|`'.`           |ir a la última línea cambiada                                                  |
