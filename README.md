@@ -106,7 +106,7 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |:----------------:|-------------------------------------------------------------------------------|
 |`u`               |deshacer los cambios                                                           |
 |`:u[ndo]`         |deshacer un cambio                                                             |
-|`ctrl + shift + R`|rehacer los cambios que fueron deshechos                                       |
+|`ctrl + shift + r`|rehacer los cambios que fueron deshechos                                       |
 |`:red[o]`         |rehacer un cambio que fue deshecho                                             |
 |`shift + u`       |deshacer todos los cambios mas recientes en una linea                          |
 |`.`               |repetir el ultimo cambio                                                       |
