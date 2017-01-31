@@ -109,3 +109,22 @@ Vim es un editor de texto muy potente que nos ayuda a realizar cambios muy efici
 |`:red[o]`         |rehacer un cambio que fue deshecho                                             |
 |`shift + u`       |deshacer todos los cambios mas recientes en una linea                          |
 |`.`               |repetir el ultimo cambio                                                       |
+
+## Comandos para buscar y reemplazar
+
+|Command                |Description                                                                    |
+|:---------------------:|-------------------------------------------------------------------------------|
+|`:s/search/replace`    |cambia la primera aparición en la linea                                        |
+|`:s/search/replace/g`  |cambia todas las apariciones en la linea                                       |
+|`:%s/search/replace/g` |cambia todas las apariciones del archivo                                       |
+|`:%s/search/replace/gc`|cambia todas las apariciones del archivo y pide confirmacion                   |
+
+## Otros comandos utiles
+
+|Command                |Description                                                                    |
+|:---------------------:|-------------------------------------------------------------------------------|
+|`p`                    |pegar lo ultimo borrado                                                        |
+|`r`                    |permite reemplazar el caracter bajo el cursor con otro caracter                |
+|`cw`                   |permite reeemplazar parte de una palabra o toda ella                           |
+|`c$`                   |permite reeemplazar parte de una linea o toda ella                             |
+|`%`                    |para buscar el parentesis correspondiente ),],}                                |
